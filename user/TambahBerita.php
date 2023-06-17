@@ -6,13 +6,13 @@ $qry_kat = $koneksi->query($sql_kat) or die ($koneksi->error);
 ?>
 <!---Berita-->
     <div class="container">
-          <h3><i class="fas fa-file-medical"></i>&nbsp; Tambah Berita</h3>
+          <h3><i class="fas fa-file-medical"></i>&nbsp;Add News</h3>
           <hr>
           <form action="proses_tambahberita.php" method="POST" enctype="multipart/form-data">
               <div class="row">
                   <div class="col-sm-8">
                       <div class="form-group">
-                          <input type="text" class="form-control" autocomplete="off" name="judul" id="judul" placeholder="Judul Berita">
+                          <input type="text" class="form-control" autocomplete="off" name="judul" id="judul" placeholder="News Title">
                       </div>
                    </div>
                   <div class="col-sm-4">
@@ -27,10 +27,10 @@ $qry_kat = $koneksi->query($sql_kat) or die ($koneksi->error);
                      </div>
                     <div class="col-sm-4">
                       <div class="form-group">
-                        <label>Kategori</label>
+                        <label>Category</label>
                           <br>
                          <select class="form-control" name="kategori">
-                             <option value="">Pilih Kategori</option> 
+                             <option value="">Select Category</option> 
                              <?php
                              while($kat= $qry_kat->fetch_assoc()){?>
                              <option value="<?php echo $kat['id_kategori'];?>"><?php echo $kat['kategori'];?></option>
@@ -38,11 +38,11 @@ $qry_kat = $koneksi->query($sql_kat) or die ($koneksi->error);
                                 </select>
                         </div>
                       <div class="form-group">
-                        <label>Cover Berita</label>
+                        <label>News Cover</label>
                         <input type="file" name="cover" id="gambar" onchange="return validasiFile()">
-                              <label class="text-muted">Ukuran gambar maksimal 1 MB</label>
+                              <label class="text-muted">Max. Size : 1 MB</label>
                               <br>
-                              <label>Preview Gambar</label>
+                              <label>Image Preview</label>
                               <div id="pratinjauGambar"></div>
                         </div>
                     </div>

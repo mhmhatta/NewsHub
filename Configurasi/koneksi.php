@@ -2,7 +2,7 @@
     $host = 'localhost';
     $user = 'root';
     $pass = '';
-    $database = 'tubes_sem1';
+    $database = 'newsHub';
 
     $koneksi = mysqli_connect($host, $user, $pass, $database);
 
