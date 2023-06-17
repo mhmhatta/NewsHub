@@ -12,7 +12,7 @@ if(empty($_SESSION['status'])){
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Kabel Berita</title>
+    <title>NewsHub</title>
     <!-- plugin css for this page -->
     <link
       rel="stylesheet"
@@ -20,7 +20,7 @@ if(empty($_SESSION['status'])){
     />
     <link rel="stylesheet" href="../assets/vendors/aos/dist/aos.css/aos.css" />
     <!-- End plugin css for this page -->
-    <link rel="shortcut icon" href="../assets/images/logo_title.png" />
+    <link rel="shortcut icon" href="../assets/images/logo.png" />
     <!-- inject:css -->
     <link rel="stylesheet" href="../assets/css/adminstyle.css">
     <link rel="stylesheet" href="../assets/css/user.css">

@@ -3,17 +3,17 @@ include 'header.php';
 include 'body.php';
 ?>
 <div class="container">
-    <h1>Kategori</h1>
+    <h1>Category</h1>
     <hr>
     <div class="row">
         <div class="col-md-12">
             <div class="col-md-3">
                 <form method="POST" action="TambahKategori.php">
-                    <label><b>Tambah Kategori</b></label>
+                    <label><b>Add Category</b></label>
                     <div class="input-group">
                         <input type="text" class="form-control" name="kategori" id="kategori" placeholder="...." required>
                     <div class="pull-right ml-3">
-                        <button type="submit" class="btn btn-outline-info" name="button_kategori"><i class="fas fa-plus-circle">&nbsp;Tambah</i>
+                        <button type="submit" class="btn btn-outline-info" name="button_kategori"><i class="fas fa-plus-circle">&nbsp;Add</i>
                         </button>
                     </div>
                     </div>
@@ -25,9 +25,9 @@ include 'body.php';
     <table class="table table-hover table-bordered">
         <thead>
             <tr style="text-align: center;">
-                <th width="10%">Id Kategori</th>
-                <th width="80%">Kategori</th>
-                <th width="10%" style="text align:center">Aksi</th>
+                <th width="10%">ID</th>
+                <th width="80%">Category</th>
+                <th width="10%" style="text align:center"></th>
             </tr>
         </thead>
         <tbody>

@@ -1,6 +1,6 @@
 <?php
 include('header.php');
-$limit = 8;
+$limit = 5;
 if(isset($_GET['p']))
 {
     $noPage = $_GET['p'];
@@ -69,7 +69,7 @@ $result = mysqli_query($koneksi, $sql);
               <div class="col-lg-3 stretch-card grid-margin">
                 <div class="card">
                   <div class="card-body">
-                    <h2>Kategori</h2>
+                    <h2>Category</h2>
                     <ul class="vertical-menu">
                       <?php while ($kat=$data_kategori -> fetch_assoc()){?>
                       <li><a href="pages/halaman.php?p=<?php echo $kat['id_kategori'];?>"><?php echo $kat['kategori'];?></a></li>
@@ -95,7 +95,7 @@ $result = mysqli_query($koneksi, $sql);
                             />
                           </div>
                           <div class="badge-positioned">
-                            <span class="badge badge-danger font-weight-bold">Terkini</span>
+                            <span class="badge badge-danger font-weight-bold">Latest</span>
                           </div>
                         </div>
                       </div>

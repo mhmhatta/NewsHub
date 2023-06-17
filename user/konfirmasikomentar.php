@@ -9,10 +9,10 @@ if(isset ($_POST['submit'])){
     $sql = "INSERT INTO komentar(nama,isi_komentar, id_berita, status_komentar) VALUES ('$nama', '$isikomentar', '$id_berita', '$status')";
 
     if($koneksi->query($sql)){
-        $msg = "Komentar berhasil! Mohon menunggu moderasi dari admin";
+        $msg = "Comment Successful, Wait for Admin to Moderate";
     }
     else{
-        $msg = "Gagal menambahkan komentar!";
+        $msg = "Comment Failed!";
     }
 }
 ?>

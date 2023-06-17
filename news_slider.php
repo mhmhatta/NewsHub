@@ -110,7 +110,7 @@ $list_populer = $koneksi->query($populer) or die ($koneksi->error);
               <div class="col-xl-4  grid-margin">
                 <div class="card bg-dark text-white">
                   <div class="card-body">
-                    <h2>Berita Terkini</h2>
+                    <h2>Latest News</h2>
                     <?php while ($terkini = $list_terkini -> fetch_assoc()){ ?>
                     <div
                       class="d-flex border-bottom-blue pt-3 pb-4 align-items-center justify-content-between">

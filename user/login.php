@@ -84,14 +84,14 @@ if(!isset($_SESSION)){
           <td><?php 
 	if(isset($_GET['pesan'])){
 		if($_GET['pesan'] == "gagal"){
-          echo"<h6 style='color:red'>Login gagal! username atau password salah! </h6>";
+          echo"<h6 style='color:red'>Login Failed! Please Check Your Username or Password!</h6>";
       
 		}else if($_GET['pesan'] == "logout"){
-			echo "<i>Anda berhasil logout</i>";
+			echo "<i>Logout Successful!</i>";
 		}else if($_GET['pesan'] == "belum_login"){
-			echo "Anda harus login untuk mengakses halaman admin";
+			echo "Make Sure You Login as Admin";
 		}else if($_GET['pesan'] == "sukses"){
-            echo"Berhasil, data telah disimpan, silahkan login!";
+            echo"Data Stored!";
         }
 	}
 	?></td>
@@ -136,7 +136,7 @@ if(!isset($_SESSION)){
                $("#uname_error_message").hide();
                $("#form_username").css("border-bottom","2px solid #34F458");
             } else {
-               $("#uname_error_message").html("Mohon Masukkan Username Anda");
+               $("#uname_error_message").html("Please Insert the Username");
                $("#uname_error_message").show();
                $("#form_username").css("border-bottom","2px solid #F90A0A");
                error_uname = true;
@@ -146,7 +146,7 @@ if(!isset($_SESSION)){
          function check_password() {
             var password_length = $("#form_password").val().length;
             if (password_length < 8) {
-               $("#password_error_message").html("Mohon Masukkan Password Anda");
+               $("#password_error_message").html("Please Insert the Password");
                $("#password_error_message").show();
                $("#form_password").css("border-bottom","2px solid #F90A0A");
                error_password = true;
@@ -169,7 +169,7 @@ if(!isset($_SESSION)){
                
                return true;
             } else {
-               swal("Maaf!", "Proses Login Gagal!", "error");
+               swal("Login Failed!", "error");
                return false;
             }
          });

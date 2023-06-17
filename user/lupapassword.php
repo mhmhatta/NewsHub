@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lupa Password</title>
-    <link rel="shortcut icon" href="../assets/images/logo_title.png" />
+    <title>Forgot Password</title>
+    <link rel="shortcut icon" href="../assets/images/logo.png" />
     <link href="assets/css/validate.css" rel="stylesheet" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -35,7 +35,7 @@
 <table  class="table table-borderless table-light"  style="margin-left: 35%; max-width: 30%; margin-top: 90px; ">
 <form action="cek_reset.php" method="POST" id="reset_form">
           <tr>
-               <td ><img src="../assets/images/logokb.png" alt="logom" width="100px"  style=" display: block;margin-left: auto;margin-right: auto;"></td>
+               <td ><img src="../assets/images/logo.png" alt="logom" width="100px"  style=" display: block;margin-left: auto;margin-right: auto;"></td>
           </tr>
           <tr style="text-align: center;">
               <th><h3 style="font-family: fantasy;">Reset Password</h3></th>

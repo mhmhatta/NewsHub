@@ -23,10 +23,9 @@ include 'body.php';
                       trigger="loop-on-hover"
                       delay="1000"
                       colors="primary:#121331,secondary:#8930e8"
-                      style="width:250px;height:250px">
-                      <br><br><br><br><br><br><br><br><br>
-                      <h4>News</h4>
+                      style="width:200px;height:200px">
                   </lord-icon>
+                  <h4>News</h4>
                 </a>
               </div>
               <div class="col big-icon">
@@ -36,10 +35,9 @@ include 'body.php';
                       src="https://cdn.lordicon.com/qhgmphtg.json"
                       trigger="loop-on-hover"
                       colors="primary:#121331,secondary:#08a88a"
-                      style="width:250px;height:250px">
-                      <br><br><br><br><br><br><br><br><br>
-                      <h4 style="position: bottom;">Visit Website</h4>
+                      style="width:200px;height:200px">
                   </lord-icon>
+                  <h4 style="position: bottom;">Visit Website</h4>
                 </a>
               </div>
             </div>

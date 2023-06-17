@@ -89,7 +89,7 @@ $qry_komentar = mysqli_query($koneksi, $komentar_sql) or die("error");
           <div class="card-body">
             <form action="detail.php?p=<?php echo $id;?>" method="POST">
                 <br><input  class="form-control" autocomplete="off" type="text" name="nama" placeholder="Nama"><br>
-                <textarea cols="81" rows="3" placeholder="Tulis komentar Anda..." name="komentar"></textarea>
+                <textarea cols="81" rows="3" placeholder="Write your comment" name="komentar"></textarea>
               <button type="submit" name="submit" class="btn btn-primary">Submit</button>
               <h5 class="float-right text-success p-2"><?= $msg; ?></h5> 
             </form>

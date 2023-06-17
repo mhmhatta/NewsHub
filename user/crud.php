@@ -8,21 +8,21 @@ include 'body.php';
 </head>
 <body>
 	<div class="container">
-            <h2>Edit User</h2>
+            <h2>User Info</h2>
             <hr>
                 <div class="row" style="float: right; padding-right:10px">
                 <a href="TambahUser.php" style="text-decoration: none; color:white">
                 <button class="button" style="border-radius: 5px;">
-                <i class="fas fa-plus-circle"></i>&nbsp;Tambah User</button></a>
+                <i class="fas fa-plus-circle"></i>&nbsp;Add User</button></a>
                 </div>
                 <table class="table table-hover table-bordered">
                     <thead>
                         <tr style="text-align: center;">
 							<th>No</th>
 							<th>Username</th>
-							<th>Level</th>
+							<th>Role</th>
 							<th>Email</th>
-							<th>Nama</th>
+							<th>Full Name</th>
 							<th>Action</th>
                         </tr>
                     </thead>

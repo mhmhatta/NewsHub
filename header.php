@@ -152,23 +152,23 @@ $explode_url = explode("/", $url);
                   </li>
                   <li class="nav-item">&nbsp;</li>
                   <li class="nav-item"> 
-                    <a class="nav-link" href="pages/halaman.php?p=5" style="background-color:lightskyblue;">Economy<br></a>
+                    <a class="nav-link" href="pages/halaman.php?p=2" style="background-color:lightskyblue;">Economy<br></a>
                   </li>
                   <li class="nav-item">&nbsp;</li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/halaman.php?p=2" style="background-color:lightskyblue;">Health</a>
+                    <a class="nav-link" href="pages/halaman.php?p=3" style="background-color:lightskyblue;">Health</a>
                   </li>
                   <li class="nav-item">&nbsp;</li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/halaman.php?p=1" style="background-color:lightskyblue;">Sport</a>
+                    <a class="nav-link" href="pages/halaman.php?p=4" style="background-color:lightskyblue;">Sport</a>
                   </li>
                   <li class="nav-item">&nbsp;</li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/halaman.php?p=4" style="background-color:lightskyblue;">Politic</a>
+                    <a class="nav-link" href="pages/halaman.php?p=5" style="background-color:lightskyblue;">Politic</a>
                   </li>
                   <li class="nav-item">&nbsp;</li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/halaman.php?p=3" style="background-color:lightskyblue;">Technology</a>
+                    <a class="nav-link" href="pages/halaman.php?p=6" style="background-color:lightskyblue;">Technology</a>
                   </li>
                   <li class="nav-item">&nbsp;</li>
                   <li class="nav-item">

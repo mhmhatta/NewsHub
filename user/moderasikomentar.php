@@ -24,16 +24,16 @@ if(isset($_GET['p'])){
 <div class="container">
 <br>
 <br>
-            <h2>Moderasi Komentar</h2>
+            <h2>Comments</h2>
             <hr>
                 <table class="table table-hover table-bordered">
                     <thead>
                   <tr style="text-align: center;"> 
                   <th>No</th>
-                  <th>Nama</th>
-                  <th>Komentar</th>
+                  <th>Name</th>
+                  <th>Comment</th>
                   <th>Status</th>
-							    <th>Aksi</th>
+							    <th></th>
                   </tr>
                     </thead>
                     <tbody>

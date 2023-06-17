@@ -3,7 +3,7 @@ include 'header.php';
 include 'body.php';
 ?>
 <?php
-	$limit = 5;
+	$limit = 10;
 	$halaman = isset($_GET['halaman'])?(int)$_GET['halaman'] : 1;
 	$halaman_awal = ($halaman>1) ? ($halaman * $limit) - $limit : 0;	
 
@@ -38,21 +38,21 @@ $total_halaman = ceil($total_rec_num/$limit);
 ?>
       <!--Masukkan berita-->
         <div class="container">
-            <h2>Berita</h2>
+            <h2>News</h2>
             <hr>
             <div class="row" style="float: right; padding-right:10px">
                 <button class="button" style="border-radius: 5px;"><a href="TambahBerita.php" style="text-decoration: none; color:white">
-                <i class="fas fa-plus-circle"></i>&nbsp;Tambah Berita</a></button>
+                <i class="fas fa-plus-circle"></i>&nbsp;Add News</a></button>
                 </div>
                 <table class="table table-hover table-bordered">
                     <thead>
                         <tr>
-                            <th width="30%">Judul</th>
-                            <th width="12%">Gambar</th>
-                            <th width="15%">Kategori</th>
-                            <th width="15%">Tanggal Posting</th>
-                            <th width="10%">Penulis</th>
-                            <th width="25">Pilihan</th>
+                            <th width="30%">Title</th>
+                            <th width="12%">Image</th>
+                            <th width="15%">Category</th>
+                            <th width="15%">Publish Date</th>
+                            <th width="10%">Author</th>
+                            <th width="25"></th>
                         </tr>
                     </thead>
                     <tbody>
