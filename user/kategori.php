@@ -27,7 +27,7 @@ include 'body.php';
             <tr style="text-align: center;">
                 <th width="10%">ID</th>
                 <th width="80%">Category</th>
-                <th width="10%" style="text align:center"></th>
+                <th width="10%" style="text-align:center"></th>
             </tr>
         </thead>
         <tbody>
