@@ -148,7 +148,7 @@ $explode_url = explode("/", $url);
                     </button>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link" href="index.php" style="background-color:lightcoral;">Home</a>
+                    <a class="nav-link" href="/index.php" style="background-color:lightcoral;">Home</a>
                   </li>
                   <li class="nav-item">&nbsp;</li>
                   <li class="nav-item"> 
@@ -164,7 +164,7 @@ $explode_url = explode("/", $url);
                   </li>
                   <li class="nav-item">&nbsp;</li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/halaman.php?p=5" style="background-color:lightskyblue;">Politic</a>
+                    <a class="nav-link" href="pages/halaman.php?p=9" style="background-color:lightskyblue;">Public</a>
                   </li>
                   <li class="nav-item">&nbsp;</li>
                   <li class="nav-item">

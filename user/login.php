@@ -4,7 +4,7 @@ if(!isset($_SESSION)){
    session_start();
    include '../Configurasi/koneksi.php';
    if(isset($_POST['submit'])){
-      // menangkap data yang dikirim dari form
+   // menangkap data yang dikirim dari form
    $username = $_POST['username'];
    $password = md5($_POST['password']);
    
@@ -12,10 +12,8 @@ if(!isset($_SESSION)){
    $login = mysqli_query($koneksi,"select * from user where username='$username' and password='$password'");
    $data = $login->fetch_assoc();
 
-   
    // menghitung jumlah data yang ditemukan
    $cek = mysqli_num_rows($login);
-   
    if($cek > 0){
       $_SESSION['username'] = $username;
       $_SESSION['status'] = "login";
@@ -27,8 +25,7 @@ if(!isset($_SESSION)){
          header("location:admin.php");
       }else{
       header("location:user.php");
-      }
-      
+      }  
    }
    else{
       header("location: login.php?pesan=gagal");
@@ -67,11 +64,9 @@ if(!isset($_SESSION)){
          <h6>Home</h6>
       </a>
    </button>
-<br/>
-	
+   <br/>
 	<br/>
 	<br/>
-      
       <table class="table table-borderless table-light" style="margin-left: 35%; max-width: 30% ; margin-top: 00px;">
         <form action="" method="POST" id="login_form">
           <tr>
@@ -82,19 +77,18 @@ if(!isset($_SESSION)){
           </tr>
           <tr>
           <td><?php 
-	if(isset($_GET['pesan'])){
-		if($_GET['pesan'] == "gagal"){
-          echo"<h6 style='color:red'>Login Failed! Please Check Your Username or Password!</h6>";
-      
-		}else if($_GET['pesan'] == "logout"){
-			echo "<i>Logout Successful!</i>";
-		}else if($_GET['pesan'] == "belum_login"){
-			echo "Make Sure You Login as Admin";
-		}else if($_GET['pesan'] == "sukses"){
-            echo"Data Stored!";
-        }
-	}
-	?></td>
+               if(isset($_GET['pesan'])){
+                  if($_GET['pesan'] == "gagal"){
+                     echo"<h6 style='color:red'>Login Failed! Please Check Your Username or Password!</h6>";
+                  }else if($_GET['pesan'] == "logout"){
+                     echo "<i>Logout Successful!</i>";
+                  }else if($_GET['pesan'] == "belum_login"){
+                     echo "Make Sure You Login as Admin";
+                  }else if($_GET['pesan'] == "sukses"){
+                        echo"Data Stored!";
+                  }
+               }
+               ?></td>
           </tr>
           <tr>
               <td ><input type="text" class="form-control" placeholder="Username" id="form_username" name="username"><span class="error_form" id="uname_error_message"></span></td></td>

@@ -36,12 +36,12 @@ $list_latest = $koneksi->query($latest) or die ($koneksi->error);
       <div class="container">
         <div class="row">
           <div class="col-sm-5">
-            <img src="../assets/images/logokb.png" class="footer-logo" alt="logo" style="width: 200px;"/>
+            <img src="../assets/images/logo.png" class="footer-logo" alt="logo" style="width: 200px;"/>
             <h5 class="font-weight-normal mt-4 mb-5">
-             Kabel Berita adalah website berita terbaik untukmu yang tertarik membuat berita.
-              Kami percaya semua orang punya kemampuan untuk menulis, oleh karena itu, kami 
-              menyediakan website yang dapat menampung aspirasi setiap orang. Karenanya,
-              tunggu apa lagi? <i>Write your own news.</i>     
+            Welcome to NewsHub, your one-stop shop for all the latest news and information. 
+            We bring you the most comprehensive coverage of current events from around the world, 
+            24 hours a day, 7 days a week. Whether you're interested in politics, business, sports, entertainment, or anything else, 
+            we have you covered. <i>Write your own news.</i>     
             </h5>
           </div>
           <div class="col-sm-4">
@@ -89,9 +89,9 @@ $list_latest = $koneksi->query($latest) or die ($koneksi->error);
         <div class="row">
           <div class="col-sm-12">
             <div class="d-sm-flex justify-content-between align-items-center">
-              <div class="fs-14 font-weight-600 mx-auto">
-                © Kelompok 3. All rights reserved.
-              </div>
+            <div class="fs-14 font-weight-600 mx-auto">
+                © Group 7. All rights reserved.
+            </div>
             </div>
           </div>
         </div>

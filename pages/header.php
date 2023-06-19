@@ -148,31 +148,31 @@ $explode_url = explode("/", $url);
                     </button>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link" href="../index.php" style="background-color:lightcoral;">Home</a>
+                    <a class="nav-link" href="/index.php" style="background-color:lightcoral;">Home</a>
                   </li>
                   <li class="nav-item">&nbsp;</li>
                   <li class="nav-item"> 
-                    <a class="nav-link" href="../pages/halaman.php?p=2" style="background-color:lightskyblue;">Ekonomi<br></a>
+                    <a class="nav-link" href="../pages/halaman.php?p=2" style="background-color:lightskyblue;">Economy<br></a>
                   </li>
                   <li class="nav-item">&nbsp;</li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/halaman.php?p=3" style="background-color:lightskyblue;">Kesehatan</a>
+                    <a class="nav-link" href="../pages/halaman.php?p=3" style="background-color:lightskyblue;">Health</a>
                   </li>
                   <li class="nav-item">&nbsp;</li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/halaman.php?p=4" style="background-color:lightskyblue;">Olahraga</a>
+                    <a class="nav-link" href="../pages/halaman.php?p=4" style="background-color:lightskyblue;">Sport</a>
                   </li>
                   <li class="nav-item">&nbsp;</li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/halaman.php?p=5" style="background-color:lightskyblue;">Politik</a>
+                    <a class="nav-link" href="../pages/halaman.php?p=9" style="background-color:lightskyblue;">Public</a>
                   </li>
                   <li class="nav-item">&nbsp;</li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/halaman.php?p=6" style="background-color:lightskyblue;">Teknologi</a>
+                    <a class="nav-link" href="../pages/halaman.php?p=6" style="background-color:lightskyblue;">Technology</a>
                   </li>
                   <li class="nav-item">&nbsp;</li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/halaman.php?p=7" style="background-color:lightskyblue;">Otomotif</a>
+                    <a class="nav-link" href="../pages/halaman.php?p=8" style="background-color:lightskyblue;">Automotive</a>
                   </li>
                 </ul>
               </div>
