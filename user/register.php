@@ -100,7 +100,7 @@ require_once '../Configurasi/koneksi.php';
                $("#uname_error_message").hide();
                $("#form_username").css("border-bottom","2px solid #34F458");
             }else {
-               $("#uname_error_message").html("Masukkan Username Anda");
+               $("#uname_error_message").html("Enter username");
                $("#uname_error_message").show();
                $("#form_username").css("border-bottom","2px solid #F90A0A");
                error_uname = true;
@@ -113,7 +113,7 @@ require_once '../Configurasi/koneksi.php';
                $("#name_error_message").hide();
                $("#form_name").css("border-bottom","2px solid #34F458");
             } else {
-               $("#name_error_message").html("Masukkan Nama Anda");
+               $("#name_error_message").html("Enter Your name");
                $("#name_error_message").show();
                $("#form_name").css("border-bottom","2px solid #F90A0A");
                error_name = true;

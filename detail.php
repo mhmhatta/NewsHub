@@ -38,14 +38,11 @@ if(mysqli_num_rows($detail_result) > 0){
     $qryStat = $koneksi->query($sqlStat) or die("Error menyimpan statistik: ".$koneksi->error);
   
   }
-
-
 }
 
 $komentar_sql = "SELECT * FROM komentar WHERE id_berita = '$id'";
 $qry_komentar = mysqli_query($koneksi, $komentar_sql) or die("error");
 ?>
-
 <body>
   <!-- Page Content -->
   <div class="content-wrapper">
